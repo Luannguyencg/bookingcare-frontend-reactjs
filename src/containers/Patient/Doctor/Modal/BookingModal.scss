@@ -1,0 +1,81 @@
+.booking-modal{
+    font-size: 1.2rem;
+    .booking-modal-body{
+
+        padding: 10px;
+
+
+        .booking-modal-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .booking-header__heading{
+                color: #45c3d2;
+                font-size: 1.4rem;
+                letter-spacing: 2px;
+            }
+            .booking-header__btn{
+                display: block;
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                width: 20px;
+                height: 20px;
+                text-align: center;
+                color: rgb(46, 67, 161);
+                cursor: pointer;
+                &:hover{
+                    color: #45c3d2;
+                }
+            }
+        }
+        .booking-modal-content{
+            border-bottom: 1px solid #ccc;
+            border-top: 1px solid #ccc;
+            padding: 15px 0 ;
+
+            .price-box{
+                width: 200px;
+                height: 30px;
+                border: 1px solid #45c3d2;
+                text-align: center;
+                margin-top: 15px;
+                
+                .price{
+                    font-size: 1.4rem;
+                    color: #45c3d2;
+                    .foo{
+                        display: inline-block;
+                        line-height: 3rem;
+                        margin-left: 10px;
+                    }
+                }
+            }
+            .form-date{
+                font-size:1.4rem;
+                height: 36px;
+            }
+        }
+        .booking-modal-footer{
+            display: flex;
+            gap: 15px;
+            justify-content: flex-end;
+            .booking-modal__btn{
+                background-color: #45c3d2;
+                color: #fff;
+                margin-top: 10px;
+                font-size: 1.4rem;
+
+                &:hover{
+                    box-shadow: 0px 0px 8px #000000
+                }
+
+                &:last-child{
+                    background-color: rgb(143, 35, 35)
+                }
+            }
+        }
+    }
+
+}

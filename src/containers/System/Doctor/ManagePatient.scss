@@ -1,0 +1,49 @@
+div._loading_overlay_wrapper{
+   position: unset;
+
+    ._loading_overlay_overlay{
+        z-index: 100000;
+        background-color: rgba(255, 166, 0, 0.438);
+
+        ._loading_overlay_content{
+            color: linear-gradient(to right, orange , yellow);
+            font-size: 1.4rem;
+
+            ._loading_overlay_spinner svg{
+                
+            }
+        }
+    }
+}
+.manage-patient{
+
+
+    .manage-patient__body{
+
+        .form-date{
+            font-size:1.4rem;
+            height: 36px;
+        }
+
+        .btn-confirm{
+            margin-right: 20px;
+            background-color: #04AA6D;
+            color: #fff;
+            transition: 0.3s;
+             &:hover{
+                 transform: translate(2px,-2px);
+                 box-shadow: 0 0 5px #04AA6D;
+             }
+        }
+
+        .btn-send-invoice{
+            background-color: #0071ba;
+            color: #fff;
+            transition: 0.3s;
+            &:hover{
+                transform: translate(2px,-2px);
+                box-shadow: 0 0 5px #0071ba;
+            }
+        }
+    }
+}

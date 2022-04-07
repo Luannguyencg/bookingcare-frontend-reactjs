@@ -1,106 +1,97 @@
 /*
  * General styles
  */
- body, html {
-    background-image: "#fff";
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: $fontmain;
-    font-size: $base-size - 2px;
-    height: 100vh;
-    overflow: hidden;
+body,
+html {
+  background-image : "#fff";
+  background-repeat: no-repeat;
+  background-size  : cover;
+  font-family      : $fontmain;
+  font-size        : 62.6%;
+  height           : 100vh;
+  overflow         : hidden;
 }
 
-.btn {
-    padding: 0;
-    border: none;
-    cursor: pointer;
-    font-weight: 700;
-    height: 30px;
-    line-height: 30px;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-    i {
-      font-size: $base-size - 3px;
-    }
-}
 
-.btn-edit, 
-.btn-add,
-.btn-delete,
-.btn-assign {
-  background-color: $colormain;
-  color: $common-text-color;
-  &:hover {
-    color: $common-text-color;
-    background-color: darken($colormain, 5);
-  }
-}
 
-#password:invalid {
-  font-family: $fontmain; // Fixed TH hien thi placeholder cho EDGE
-}
-#password:-webkit-input-placeholder {
-  font-family: $fontmain; // CHROME 1
-}
-#password::-webkit-input-placeholder {
-  font-family: $fontmain; //CHROME 2   EDGE 1
-}
-#password:-moz-placeholder {
-  font-family: $fontmain; // Firefox 4-18
-}
-#password::-moz-placeholder {
-  font-family: $fontmain; // Firefox 19+
-}
-#password:-ms-input-placeholder {
-  font-family: $fontmain; // IE 10-11
-}
-#password::-ms-input-placeholder {
-  font-family: $fontmain; // EDGE 2
-}
-#password::placeholder { 
-  font-family: $fontmain;
-}
+
 
 .content-container {
   .title {
-    text-align: center;
+    text-align    : center;
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: $base-size + 4px;
-    margin-top: 15px;
-    color: $colormain;
+    font-weight   : bold;
+    font-size     : $base-size + 0.4rem;
+    margin-top    : 15px;
+    color         : $colormain;
   }
+
   .content {
-    margin: 15px 30px;
-    box-shadow: 2px 2px 4px 0 $box-shadow-color;
+    margin            : 15px 30px;
+    box-shadow        : 2px 2px 4px 0 $box-shadow-color;
     -webkit-box-shadow: 2px 2px 4px 0 $box-shadow-color;
   }
 }
 
-.modal {
-  .modal-dialog {
-    .modal-content {
-      .modal-header {
-        padding: 0 10px;
-        height: 35px;
-        background-color: $colormain;
-        color: $common-text-color;
-        .modal-title {
-          line-height: 35px;
-          font-weight: 500;
-          font-size: $base-size + 1px;
-        }
-        .btn-close {
-          position: absolute;
-          color: $common-text-color;
-          i {
-            line-height: 35px;
-            font-size: $base-size + 2px;
-          }
-        }
-      }
-    }
+
+// table
+#customers {
+  font-family    : Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width          : 100%;
+  font-size      : 1.4rem;
+}
+
+.user-container {
+  .add-new-btn {
+    font-size: 1.4rem;
+  }
+}
+
+#customers td,
+#customers th {
+  border : 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top     : 12px;
+  padding-bottom  : 12px;
+  text-align      : left;
+  background-color: #04AA6D;
+  color           : white;
+}
+
+.btn-edit {
+  width     : 50px;
+  border    : none;
+  outline   : none;
+  background: transparent;
+  color     : orange;
+
+  &:hover {
+    background: transparent;
+    color     : rgb(85, 76, 57);
+  }
+}
+
+.btn-delete {
+  width     : 50px;
+  border    : none;
+  outline   : none;
+  background: transparent;
+  color     : rgb(247, 47, 47);
+
+  &:hover {
+    background: transparent;
+    color     : rgb(223, 140, 140);
   }
 }

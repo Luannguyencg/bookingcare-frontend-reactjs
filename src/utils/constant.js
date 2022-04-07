@@ -1,19 +1,26 @@
 export const path = {
     HOME: '/',
+    HOMEPAGE: '/home',
     LOGIN: '/login',
     LOG_OUT: '/logout',
-    SYSTEM: '/system'
+    SYSTEM: '/system',
+    DETAIL_DOCTOR: '/detail-doctor/:id',
+    DETAIL_SPECIALTY:'/detail-specialty/:id',
+    DETAIL_CLINIC:'/detail-clinic/:id',
+    DOCTOR: '/doctor',
+    VERYFI_EMAIL_BOOKING: '/veryfi-booking',
 };
 
-export const languages = {
+export const LANGUAGES = {
     VI: 'vi',
     EN: 'en'
 };
  
-export const manageActions = {
-    ADD: "ADD",
+export const CRUD_ACTION = {
+    CREATE: "ADD",
     EDIT: "EDIT",
-    DELETE: "DELETE"
+    DELETE: "DELETE",
+    READ: "READ",
 };
 
 export const dateFormat = {
@@ -23,4 +30,9 @@ export const dateFormat = {
 export const YesNoObj = {
     YES: 'Y',
     NO: 'N'
+}
+export const USER_ROLE ={
+    ADDMIN: 'R1',
+    DOCTOR: 'R2',
+    PATIENT: "R3"
 }

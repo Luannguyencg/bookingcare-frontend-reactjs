@@ -1,0 +1,45 @@
+/* mobile and tablet */
+@media (max-width:1023px){
+    .home-header-container{
+
+        .home-header-content{
+
+            .content-mid__hide-on-tablet-mobile{
+                display: none;
+            }
+            
+
+        }
+    }
+
+
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .home-header-container{
+
+        .home-header-content{
+
+            .content-left{
+                margin-left: 20px;
+               
+            }
+
+           
+            .content-right{
+                margin-right: 30px;
+            }
+
+        }
+    }
+
+
+}
+
+/* mobile*/
+@media (max-width:739px){
+
+
+
+}

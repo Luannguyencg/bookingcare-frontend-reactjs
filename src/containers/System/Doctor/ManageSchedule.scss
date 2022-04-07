@@ -1,0 +1,46 @@
+.manage-schedule{
+
+    .manage-schedule__header{
+
+
+        .m-s-heading{
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            text-align: center;
+            margin: 15px 0;
+            font-weight: bold;
+        }
+    }
+    .form-date{
+        font-size: 1.4rem;
+        height: 38px;
+        
+    }
+
+    .manage-schedule__content{
+
+        .pick-time-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .time-btn{
+                border: 1px solid #ccc;
+               padding: 5px 15px;
+               margin-top: 10px;
+               font-size: 1.4rem;
+            }
+            .active{
+                background-color: rgb(255, 238, 0)
+            }
+        }
+
+        .schedule-btn{
+            background-color: #0d6efd;
+            color: #fff;
+            font-size: 1.4rem;
+            margin-left: 20px;
+        }
+    }
+
+
+}

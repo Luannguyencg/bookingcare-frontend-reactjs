@@ -1,0 +1,16 @@
+.handbook-slider__link{
+    display: flex!important;
+    .handbook-slider__img{
+        height: 150px!important;
+        width: 50%!important;
+        padding: 0 !important;
+    }
+    .handbook-slider__text{
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-align: left;
+        margin:0 0 0 10px;
+        line-height: 32px;
+    }
+}

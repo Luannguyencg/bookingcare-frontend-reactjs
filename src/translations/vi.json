@@ -1,4 +1,38 @@
 {
+
+    "homeHeader":{
+        "speciality": "Chuyên khoa",
+        "searchdoctor": "Tìm bác sĩ theo chuyên môn",
+        "healthfacilities":"Cơ sở y tế",
+        "selectroom": "Chọn bệnh viện, phòng khám",
+        "doctor": "Bác sĩ",
+        "selectdoctor": "Chọn bác sĩ",
+        "fee": "Gói khám",
+        "checkhealth": "Khám sức khỏe tổng quát",
+        "help": "Hỗ trợ",
+        "welcome": "Xin chào"
+    },
+    "banner":{
+        "heading1": "Nền tảng y tế",
+        "heading2": "chăm sóc sức khỏe toàn diện",
+        "placeholder": "Tìm kiếm",
+        "specialityexamination-1": "Khám",
+        "specialityexamination-2": "chuyên khoa",
+        "remoteexamination-1":"Khám",
+        "remoteexamination-2":"từ xa",
+        "generalexamination-1": "Khám",
+        "generalexamination-2": "tổng quát",
+        "medicaltest-1": "Xét nghiệm",
+        "medicaltest-2": "y học",
+        "mentalhealth-1": "Sức khỏe",
+        "mentalhealth-2": "tinh thần",
+        "dentalexamination-1":"Khám", 
+        "dentalexamination-2":"nha khoa",
+        "surgerypackage-1": "Gói" ,
+        "surgerypackage-2": "phẫu thuật" ,
+        "medicalproducts-1": "Sản phẩm",
+        "medicalproducts-2": "y tế"
+    },
     "common": {
         "add": "Thêm",
         "edit": "Sửa",
@@ -26,19 +60,51 @@
         "userpass-wrong": "Sai tên đăng nhập hoặc mật khẩu!"
     },
     "menu": {
-        "system": {
-            "header": "Hệ thống",
-            "system-administrator": {
-                "header": "Quản trị hệ thống",
-                "user-manage": "Quản lý người sử dụng",
-                "product-manage": "Quản lý gói",
-                "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
-            },
-            "system-parameter": {
-                "header": "Tham số hệ thống"
-            }
+        
+        "addmin": {
+            "manage-user": "Người dùng",
+            "manage-doctor" : "Quản lý bác sĩ",
+            "manage-addmin": "Quản lý addmin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+             
+        },
+        "doctor":{
+            "manage-schedule":"Quản lý kế hoạch khám bệnh",
+            "manage-patient":"Quản lý lịch hẹn khám bệnh"
         }
+
     },
+    "manage-user":{
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password":"Mật khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "position": "Chức danh",
+        "role": "Vai trò",
+        "choose-avatar": "Chọn avata",
+        "create-user" : "Tạo người dùng",
+        "save": "Lưu"
+    },
+    
+
+    "homepage": {
+        "outstanding-doctor":"Bác sĩ nổi bật tuần qua",
+        "more-info": "Xem thêm",
+        "popular-medical-specialties":"Chuyên khoa phổ biến",
+        "outstanding-medical-facility":"Cơ sở y tế nổi bật"
+    },
+
     "system": {
         "user-manage": {
             "fail-to-load-fouser": "Không thể tải về danh sách người dùng",
@@ -116,5 +182,66 @@
             "remove-assign-fail": "Bỏ gán gói dịch vụ cho khách hàng thất bại",
             "sure-delete-assign": "Bạn có chắc chắn muốn bỏ gán gói dịch vụ cho khách hàng?"
         }
+    },
+    
+    "manage-schedule":{
+        "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+        "chosse-doctor": "Chọn bác sĩ",
+        "chosse-date": "Chọn ngày" ,
+        "save": "Lưu thông tin"
+        
+    },
+    "patient":{
+        "home-schedule":{
+            "medical-examination-schedule":"Lịch khám",
+            "schedule-text": "Bác sĩ không có lịch hẹn trong thời gian này, vui lòng chọn thời gian khác !",
+            "book-free": " Chọn và đặt lịch (miễn phí)"
+        },
+        "extra-info":{
+            "address-title": "Địa chỉ khám",
+            "pay-method": "Bệnh nhân có thể thanh toán bằng hình thức:  ",
+            "price": "Giá khám:",
+            "see-price-list": "Xem bảng giá",
+            "hide-price-list":"Ẩn bảng giá"
+        },
+        "booking-modal":{
+            "title":"Đặt lịch khám",
+            "fullName": "Họ và tên",
+            "phoneNumber": "Số điện thoại",
+            "email": "Địa chỉ email",
+            "address": "Địa chỉ liên lạc",
+            "gender": "Giới tính",
+            "birthday": "Ngày sinh",
+            "reason": "Lý do khám",
+            "btnConfirm": "Xác nhận",
+            "btnCancel": "Hủy",
+            "freeBooking": "Miễn phí đặt lịch",
+            "chosseGender": "Chọn giới tính"
+        },
+        "veryfi-booking": {
+            "success": "Xác nhận lịch hẹn thành công !!",
+            "failed": "Lịch hẹn không tồn tại hoặc đã được xác nhận !!"
+        }
+       
+    },
+
+    "addmin":{
+        "manage-doctor": {
+            "title": "Tạo thêm thông tin cho bác sĩ",
+            "chosse-doctor": "Chọn bác sĩ",
+            "introduction":"Thông tin giới thiệu",
+            "add": "Tạo thông tin",
+            "save": "Lưu thông tin",
+            "price": "Giá khám bệnh",
+            "payment-method": "Phương thức thanh toán",
+            "choose-province":"Tỉnh thành",
+            "clinic-name": "Tên phòng khám",
+            "clinic-address": "Địa chỉ phòng khám",
+            "note": "Ghi chú!",
+            "specialty": "Chọn chuyên khoa",
+            "clinic": "Chọn phòng khám"
+        }
     }
+    
+    
 }

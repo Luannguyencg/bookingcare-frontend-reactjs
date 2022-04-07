@@ -1,0 +1,63 @@
+.profile-doctor {
+
+    .intro-doctor {
+        // padding: 10px;
+
+        .content-left {
+            display        : flex;
+            text-align     : center;
+            justify-content: center;
+
+
+            .content-image {
+                margin             : auto;
+                background-size    : cover;
+                background-repeat  : no-repeat;
+                background-position: center;
+                height             : 100px;
+                width              : 100px;
+                margin             : 3px;
+                border-radius      : 50%;
+
+            }
+
+        }
+
+        .see-more-profile {
+            display   : block;
+            text-align: center;
+            margin-top: 10px;
+            
+            
+            .see-more-profile__link{
+                text-decoration: none;
+                font-size : 1.3rem;
+                color : #333;
+                cursor: pointer;
+
+                &:hover{
+                    color     : #0dcaf0;
+                }   
+
+            }
+        }
+
+        .content-right {
+            display       : flex;
+            flex-direction: column;
+            margin-left   : 10px;
+
+            .content-title {
+                font-size  : 2rem;
+                font-weight: bold;
+            }
+
+            .content-sub {
+                margin-top: 5px;
+                font-size : 1.4rem;
+                text-align: justify;
+
+            }
+        }
+    }
+}

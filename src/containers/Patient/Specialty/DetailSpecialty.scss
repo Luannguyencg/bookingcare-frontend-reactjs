@@ -1,0 +1,35 @@
+.specialty-container {
+    background-color: #eeeeee;
+    padding-bottom: 20px;
+    .specialty-description {
+        background: #fff;
+        background-repeat  : no-repeat;
+        background-position: center;
+        background-size    : cover;
+        font-size: 1.2rem;
+
+        .specialty-description__box{
+            padding: 10px 20px;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 1));
+        }
+    }
+
+    .search-doctor{
+        margin-top: 20px;
+        .search-doctor_select{
+            font-size: 1.4rem;
+            width: 130px;
+            text-align: center;
+            box-shadow: 0 0 8px rgba(0,0,0, 0.5);
+            cursor: pointer;
+        }
+    }
+
+    .specialty-row{
+        border-radius: 8px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+        margin: 20px 0;
+        background-color: #fff;
+        padding: 10px;
+    }
+}

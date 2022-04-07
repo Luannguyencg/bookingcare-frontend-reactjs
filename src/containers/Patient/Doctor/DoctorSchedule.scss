@@ -1,0 +1,80 @@
+.doctor-schedule {
+
+    .all-schedule {
+
+
+        .select-time-input {
+            width    : 160px;
+            font-weight: bold;
+            font-size: 1.4rem;
+            .css-1s2u09g-control{
+                border:none;
+                border-bottom: 1px solid #3e8bc7;
+                background-color: transparent;
+                cursor: pointer;
+                .css-qc6sy-singleValue{
+                    color: #3e8bc7;
+                }
+            }
+            .css-tlfecz-indicatorContainer{
+                color: #3e8bc7;
+            }
+
+        }
+
+    }
+
+    .all-available-time {
+
+        margin: 10px 0;
+
+        .calendar {
+
+            .calendar__heading {
+                font-size     : 1.4rem;
+                text-transform: uppercase;
+                color         : #333;
+                font-weight   : bold;
+
+                .calendar-icon{
+                    margin-right: 10px;
+                    font-size: 1.6rem;
+                }
+            }
+
+            .calendar__content {
+
+                .calendar-time__btn {
+                    background    : #fff04b;
+                    vertical-align: middle;
+                    white-space   : nowrap;
+                    text-align    : center;
+                    color         : #333;
+                    font-weight   : bolder;
+                    padding       : 10px;
+                    margin: 10px;
+                    min-width: 120px;
+                    font-size :1.4rem;
+
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+                .book-free-text{
+                    display: block;
+                    width: 100%;
+                    font-weight: bold;
+                    font-size: 1.4rem;
+                    margin: 10px;
+                }
+                .text-sub{
+                    display: block;
+                    font-size : 1.4rem;
+                    color : #333;
+                    font-style: italic;
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}

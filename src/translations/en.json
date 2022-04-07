@@ -1,4 +1,38 @@
 {
+
+    "homeHeader":{
+        "speciality": "Medical specialty",
+        "searchdoctor": "Find a doctor by specialty",
+        "healthfacilities": "Health facilities",
+        "selectroom": "Choose a hospital, clinic",
+        "doctor": "Doctor",
+        "selectdoctor": "Choose a doctor",
+        "fee": "medical examination package",
+        "checkhealth": "General health check",
+        "help": "help",
+        "welcome": "Welcome"
+    },
+    "banner":{
+        "heading1": "Medical platform",
+        "heading2": "Comprehensive health care",
+        "placeholder": "Search",
+        "specialityexamination-1": "Speciality",
+        "specialityexamination-2": "examination",
+        "remoteexamination-1":"Remote",
+        "remoteexamination-2":"examination",
+        "generalexamination-1": "General",
+        "generalexamination-2": "examination",
+        "medicaltest-1": "Medical",
+        "medicaltest-2": "test",
+        "mentalhealth-1": "Mental",
+        "mentalhealth-2": "health",
+        "dentalexamination-1":"Dental", 
+        "dentalexamination-2":"examination", 
+        "surgerypackage-1": "Surgery" ,
+        "surgerypackage-2": "package" ,
+        "medicalproducts-1": "Medical",
+        "medicalproducts-2": "products"
+    },
     "common": {
         "add": "Add",
         "edit": "Edit",
@@ -26,19 +60,47 @@
         "userpass-wrong": "Invalid username or password!"
     },
     "menu": {
-        "system": {
-            "header": "System",
-            "system-administrator": {
-                "header": "System Administrator",
-                "user-manage": "User manage",
-                "product-manage": "Package manage",
-                "register-package-group-or-account": "Register service package for group/account"
-            },
-            "system-parameter": {
-                "header": "System-parameter"
-            }
+       
+        "addmin": {
+            "manage-user": "User system",
+            "manage-doctor" : "Manage doctor",
+            "manage-addmin": "Manage addmin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Clinic",
+            "manage-clinic": "Manage clinic",
+            "specialty": "Specialty",
+            "manage-specialty": "Manage specialty",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage handbook"
+        },
+        "doctor":{
+            "manage-schedule":"Manage Doctor's schedule",
+            "manage-patient":"Manage medical appointments"
         }
     },
+    "manage-user":{
+        "add": "add new user",
+        "email": "Email",
+        "password":"Password",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "choose-avatar": "Chọn avata",
+        "create-user" : "Create user",
+        "save": "Save" 
+
+    },
+    "homepage": {
+        "outstanding-doctor":"Excellent doctor last week",
+        "more-info": "See more",
+        "popular-medical-specialties":"Popular specialty",
+        "outstanding-medical-facility":"Outstanding medical facility"
+    },
+
     "system": {
         "user-manage": {
             "fail-to-load-fouser": "Fail to load system users list",
@@ -115,6 +177,64 @@
             "remove-assign-success": "Unassign service package to customer successfully",
             "remove-assign-fail": "Fail to unassign service package to customer",
             "sure-delete-assign": "Are you sure to unassign service package to customer?"
+        }
+    },
+    
+    "manage-schedule":{
+        "title": "Manage the doctor's examination plan",
+        "chosse-doctor": "Chosse doctor",
+        "chosse-date": "chosse date" ,
+        "save": "save infor"
+    },
+    "patient":{
+        "home-schedule":{
+            "medical-examination-schedule":"Medical examination schedule",
+            "schedule-text": "The doctor does not have an appointment during this time, please choose another time !",
+            "book-free": "Choose and book (free)"
+        },
+        "extra-info":{
+            "address-title": "Medical address",
+            "pay-method": "Patients can pay by: ",
+            "price": "Price of medical:",
+            "see-price-list": "See price list",
+            "hide-price-list":"Hide price list"
+            
+        },
+        "booking-modal":{
+            "title":"Book an appointment",
+            "fullName": "Full name",
+            "phoneNumber": "Phone number",
+            "email": "Email",
+            "address": "Address",
+            "gender": "Gender",
+            "birthday": "date of birth",
+            "reason": "Reason for medical examination",
+            "btnConfirm": "Confirm",
+            "btnCancel": "Cancel",
+            "freeBooking": "Free booking",
+            "chosseGender": "Choose gender"
+        },
+        "veryfi-booking": {
+            "success": "Appointment confirmed successfully!!",
+            "failed": "Appointment does not exist or has been confirmed !!"
+        }
+        
+    },
+    "addmin":{
+        "manage-doctor": {
+            "title": "Create more information for doctors",
+            "chosse-doctor": "Chosse doctor",
+            "introduction":"Introduction information",
+            "add": "Create information",
+            "save": "Save information",
+            "price": "Medical examination price",
+            "payment-method": "payment method",
+            "choose-province":"Province",
+            "clinic-name": "Clinic Name ",
+            "clinic-address": "Clinic address",
+            "note": "Note",
+            "specialty": "Choose a specialty",
+            "clinic": "Choose clinic"
         }
     }
 }

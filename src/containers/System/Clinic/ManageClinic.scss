@@ -1,0 +1,31 @@
+.manage-clinic {
+
+    .form-clinic {
+        margin-bottom: 10px;
+    }
+
+    .clinic-btn {
+        color           : #fff;
+        background-color: #0071ba;
+        font-size       : 1.4rem;
+        margin-top      : 10px;
+        min-width       : 80px;
+
+        &:hover {
+            opacity   : 0.9;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+        }
+
+        &.edit-btn{
+            background-color: green;
+        }
+    }
+    .th-decription{
+       
+    }
+    
+
+    .td-decription {
+       
+    }
+}
