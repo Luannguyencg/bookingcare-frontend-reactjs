@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter} from 'react-router';
+import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom'
 import { FormattedMessage } from 'react-intl'
@@ -36,8 +36,9 @@ class OutStandingDoctor extends Component {
 
     render() {
         let arrTopDoctor = this.state.arrTopDoctor
+        console.log(arrTopDoctor)
         let { language } = this.props;
-        
+
         return (
 
             <div className="section-content">
@@ -62,7 +63,7 @@ class OutStandingDoctor extends Component {
                                         to={`/detail-doctor/${item.id}`}
                                         key={index}
                                         className="content-slider__box"
-                                        // onClick={()=>this.handleViewDetailDoctor(item)}
+                                    // onClick={()=>this.handleViewDetailDoctor(item)}
                                     >
                                         <div className="content-slider__link out-standing-doctor__link">
                                             <div
@@ -70,7 +71,7 @@ class OutStandingDoctor extends Component {
                                                 style={{ backgroundImage: `url(${imageBase64})` }}
                                             ></div>
                                             <h3 className="content-slider__text out-standing-doctor__text">{language === LANGUAGES.VI ? nameVi : nameEn}</h3>
-                                            <span className="out-standing-doctor__branch" >Tim mạch</span>
+                                            <span className="out-standing-doctor__branch" >{item.Doctor_info.specialtyData.name}</span>
                                         </div>
                                     </Link>
                                 )
